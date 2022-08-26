@@ -1,0 +1,41 @@
+background: -webkit-linear-gradient(left, #CC0000 0%, #FF5100 100%);
+  background: linear-gradient(90deg, #CC0000 0%, #FF5100 100%);
+
+         .btn-grad {background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+
+         .habibi-button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 14px 30px;
+  font-size: 14px;
+  background: none;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.habibi-button:hover {
+  background: white;
+  color: #DB1010;
+}

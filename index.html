@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Alphabet Game</title>
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="HandheldFriendly" content="true" />
+	<meta charset="UTF-8">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+	<meta name="description" content="A simple game to teach kids the English alphabets." />
+    <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+	
+</head>
+<body>
+	<audio preload="auto">
+		<source id="oggSource" src="sounds/ogg/like-glass.ogg" type="audio/ogg">
+		<source id="mp3Source" src="sounds/mp3/like-glass.mp3" type="audio/mp3">
+		Oops! Looks like you're using an old browser, try using a modern browser like Google Chrome, Firefox or even Safari.
+	</audio>
+	<div class="main-cont">
+
+		<div id="about-cont">
+			<div class="content-wrapper">
+				<div class="about-white-bg">
+					<h3 class="about-title">A Simple game to Teach Kids English Alphabets</h3>by<h2>Mehran Firdous</h2>
+					<div class="about-image"></div>
+					<p class="about-text">
+						Find me on Instagram: <a href="https://instagram.com/iamehraan" target="_blank">@iamehraan</a>
+					</p>
+					
+					               
+					<button id="hide-button" type="button" name="button">Hide</button>
+				</div>
+			</div>
+		</div>
+		<div class="char-cont">
+			<p id="big-char" class="char animationHabibi">
+				Type a letter
+			</p>
+			<button id="show-keyboard-button" class="habibi-button" type="button" name="button">Show keyboard</button>
+			<input id="mobile-text-input" type="text" name="name" value="oh you! you got me! let's chat @mehran">
+		</div>
+		<footer>
+			<button id="mute-button" class="habibi-button" type="button" name="button">Mute Sounds</button>
+			<button id="about-button" class="habibi-button" type="button" name="button">About</button>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
